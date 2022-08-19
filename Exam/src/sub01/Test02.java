@@ -16,13 +16,13 @@ public class Test02 {
 		int birth;
 		String name;
 		
-		System.out.println("올해 년도 입력 : ");
+		System.out.print("올해 년도 입력 : ");
 		year = sc.nextInt();
 		
-		System.out.println("태어난 년도 입력 : ");
+		System.out.print("태어난 년도 입력 : ");
 		birth = sc.nextInt();
 		
-		System.out.println("이름 입력 : ");
+		System.out.print("이름 입력 : ");
 		name = sc.next();
 		
 		int age = year - birth;

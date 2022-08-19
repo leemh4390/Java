@@ -8,7 +8,7 @@ public class Test09 {
 			if(i<=5) {
 				count ++;
 			} else {
-				count ++;
+				count --;
 			}
 			for(int j=1 ; j <= 5-count; j++) {
 				System.out.print("");

@@ -9,6 +9,7 @@ public class _09 {
 	
 	int num1 = sc.nextInt();
 	System.out.println(num1 - 543);
+	
 	sc.close();
 	
 	}

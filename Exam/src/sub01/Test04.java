@@ -27,7 +27,7 @@ public class Test04 {
 		 }
 		
 		System.out.printf("등급은 입니다." + grade);
-				
+		sc.close();
 	}
 }
 
