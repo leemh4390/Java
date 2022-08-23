@@ -33,3 +33,9 @@
 - sub1. 배열 (Array) 실습하기
 
 - sub2. 다차원배열 (MultiArray) 실습하기
+
+- sub3. 메서드(Method) 실습하기
+
+- sub4. 메서드타입 (MethodType) 실습하기
+
+- sub5. 메서드 오버로딩(MethodOverloading) 실습하기
