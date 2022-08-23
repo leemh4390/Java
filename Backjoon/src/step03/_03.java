@@ -8,16 +8,16 @@ public class _03 {
 		Scanner sc = new Scanner(System.in);
 		
 		int A = sc.nextInt();
-		int sum = 0;
+		sc.close();
 		
-		for(int i = 0; i < A; i++) {
+		int tot = 0;
+		
+		for(int i = 0; i <= A; i++) {
+			tot += i;
 			
-		sum += i;
-		
 		}
 		
-		System.out.println(sum);
+		System.out.println(tot);
 		
-		sc.close();
 	}
 }
