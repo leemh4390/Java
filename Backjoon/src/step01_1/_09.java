@@ -1,4 +1,4 @@
-package step03_1;
+package step01_1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -20,9 +20,7 @@ public class _09 {
 		int knight = Integer.parseInt(st.nextToken());
 		int p = Integer.parseInt(st.nextToken());
 		
-		System.out.printf("%d %d %d %d %d %d\n", 1 - King, );
-		
-		
+		System.out.printf("%d %d %d %d %d %d", 1- King , 1 - Queen, 2 - rook , 2 - bishop , 2 - knight, 8 - p);
 		
 	}
 }
