@@ -10,8 +10,8 @@ package sub05;
  * - 공통적인 로직 내용을 부모클래스에 두고 자식 클래스에서 상속 받아 일관성 있는 프로그래밍 수행
  * - 부모 클래스의 속성 접근 권한은 protected 선언해서 지식 클래스에서만 참조 되도록 수정
  */
-class Parent {
-	private int num1;
+class Parent {                        //부모 클래스 
+	private int num1;						
 	private int num2;
 	
 	public Parent (int num1, int num2) {
@@ -24,7 +24,7 @@ class Parent {
 	}
 }
 
-class Child extends Parent {
+class Child extends Parent { // 자식 클래스 
 	private int num3;
 	private int num4;
 
