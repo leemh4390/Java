@@ -8,8 +8,8 @@ public class StockAccount extends Account{ // 1번째 extends 확장 / 클래스
 	
 	public StockAccount(String bank, String id, String name, int balance, String stock, int amount, int price) {
 		super(bank, id, name, balance); //  3번째 부모개체와 자식개체 메서드 입력하기
-		this.stock = stock; // this. ~  public 
-		this.amount = amount;
+		this.stock = stock; // public // 클래스명 ( 안에 확장자명과 같이 입력하기)  
+		this.amount = amount; // this ~ 
 		this.price = price;
 	
 	}
