@@ -27,7 +27,7 @@ public class VariableTest {
            		
         		   
     	  //상수 
-           final int NUM = 5;
+           final int NUM = 7;
            //NUM = 7;
            
            System.out.println("NUM : " + NUM);
