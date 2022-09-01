@@ -8,30 +8,27 @@ public class _02 {
 	public static void main(String[] args) throws IOException{
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
-		int arr[] = new int[9];
-		
-		for (int i =0 ; i < arr.length ; i++) {
 			
-			arr[i] = Integer.parseInt(br.readLine());
+				int max = 0;
 			
-		}
-			int max = 0;
-			int k = 0;
+				int k = 0;
 			
-			for(int j=0; j < arr.length; j++) {
+			for ( int i =0; i < 9; i++) {
 				
-				if(max < arr[j]) {
-					
-					max = arr[j];
-					k=j+1;
-					System.out.println(k);
-				}
-		
-		
+			int va1 = Integer.parseInt(br.readLine());
+				
+			if ( va1 > max) {
+				max = va1;
+				
+				k = i+1;
+					}
+				
 			}
 			
-			
 			System.out.println(max);
+			System.out.println(k);
+			
+				
+
 	}
 }
