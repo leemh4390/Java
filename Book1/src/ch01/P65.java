@@ -1,7 +1,8 @@
-package ch02;
+package ch01;
 
 public class P65 {
-	public static void main(String[] args) {
+		public static void main(String[] args) {
+			
 			byte bNum = 10;
 			int iNum = bNum;
 			
@@ -17,9 +18,12 @@ public class P65 {
 			double dNum;
 			dNum = fNum + iNum;
 			System.out.println(dNum);
-					
 			
+			char ch1 = 'A';
+			System.out.println((int)ch1);
 			
+			int ch2 = 67;
+			System.out.println((char)ch2);
 			
-	}
+		}
 }
