@@ -8,8 +8,7 @@ public class StudentTest1 {
 			System.out.println(student1.getStudentName());
 			
 			Student student2 = new Student();
-			student2.getstudentName = "안승연";
-			
+			student2.setStudentName("안승연");
 			System.out.println(student2.getStudentName());
 		}
 }
