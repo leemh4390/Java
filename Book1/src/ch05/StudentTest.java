@@ -3,11 +3,11 @@ package ch05;
 public class StudentTest {
 
 	public static void main(String[] args) {
-		Student studentAhn = new Student();
-		studentAhn.studentName = "안승연";
+		Student studentLee = new Student();
+		//studentAhn.studentName = "안승연";
+		studentLee.setStudentName("이상원");
 		
-		System.out.println(studentAhn.studentName);
-		System.out.println(studentAhn.getStudentName());
+		System.out.println(studentLee.getStudentName());
 	}
 
 }
