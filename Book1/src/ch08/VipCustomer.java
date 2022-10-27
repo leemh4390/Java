@@ -15,6 +15,10 @@ package ch08;
 		
 	}
 	
+	public VipCustomer() {
+		
+	}
+	
 	@Override
 	public int calcPrice(int price) {
 		bonusPoint += price * bonusRatio;
