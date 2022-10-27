@@ -6,10 +6,13 @@ package ch08;
 			
 	public VipCustomer(int customerID, String customerName, int agentID) {
 		super(customerID, customerName);
+		this.customerID = customerID;
+		this.customerName = customerName;
+		this.agentID = agentID;
 		customerGrade = "VIP";
 		bonusRatio = 0.05;
 		saleRatio = 0.1;
-		this.agentID = agentID;
+		
 	}
 	
 	@Override
