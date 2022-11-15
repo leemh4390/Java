@@ -10,6 +10,7 @@ public class CardCompany {
 			instance = new CardCompany();
 			return instance;
 		}
+		return instance;
 	}
 		public Card createCard() {
 			
